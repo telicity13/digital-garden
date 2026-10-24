@@ -3,7 +3,9 @@ on:
   push:
     branches:
       - master
-
+      - main
+  workflow_dispatch:
+  
 permissions:
   contents: read
   pages: write
