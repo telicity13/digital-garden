@@ -1,0 +1,36 @@
+theme = "apollo"
+taxonomies = [{ name = "tags" }]
+
+# The URL the site will be built for
+base_url = ""https://telicity13.github.io/digital-garden""
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+[markdown]
+
+[markdown.highlighting]
+theme = "catppuccin-mocha"
+
+[extra]
+theme = "toggle"
+
+menu = [
+    { name = "🦇About", url = "@/about.md", weight = 1 },
+    { name = "🦇Past Projects", url = "@/projects/_index.md", weight = 2 },
+    { name = "🦇Currently Reading", url = "@/bibliographies.md", weight = 3 },
+    { name = "🦇Presentations", url = "@/presentations.md", weight = 4 },
+]
+
+socials = [
+]
+
+[extra.taxonomies]
+sort_by = "name"
+reverse = false
+
+[extra.analytics]
+enabled = false
