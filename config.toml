@@ -23,6 +23,7 @@ menu = [
     { name = "🦇Past Projects", url = "@/projects/_index.md", weight = 2 },
     { name = "🦇Currently Reading", url = "@/bibliographies.md", weight = 3 },
     { name = "🦇Presentations", url = "@/presentations.md", weight = 4 },
+    { name = "🦇Tags", url = "/tags/", weight = 5 },
 ]
 
 socials = [

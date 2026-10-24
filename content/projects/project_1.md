@@ -4,10 +4,12 @@ description = "A digital humanities project exploring sentiment and language pat
 weight = 1
 date = 2023-12-20
 
+[taxonomies]
+tags = ["digital humanities", "sentiment analysis"]
+
 [extra]
 github = ""
 demo = "https://telicity13.github.io/digital-humanities/sentiment_analysis_research_hathitrust.html"
-tags = ["digital humanities", "sentiment analysis"]
 +++
 
 ## Overview

@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block main_content %}
+<div class="visible-element-observer-root" data-selector="main article p">
+    <main>
+        <article>
+            <div class="title">
+                {{<post.page_header title="Tags" />}}
+            </div>
+
+            <section class="body">
+                <ul>
+                    {% for term in terms %}
+                        <li>
+                            <a href="{{ term.permalink }}" class="post-tag">{{ term.name }}</a>
+                            ({{ term.pages | length }})
+                        </li>
+                    {% endfor %}
+                </ul>
+            </section>
+        </article>
+    </main>
+</div>
+{% endblock main_content %}
